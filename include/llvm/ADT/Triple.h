@@ -142,7 +142,8 @@ public:
     AMD,
     Mesa,
     SUSE,
-    LastVendorType = SUSE
+    Lilinjn,
+    LastVendorType = Lilinjn
   };
   enum OSType {
     UnknownOS,
