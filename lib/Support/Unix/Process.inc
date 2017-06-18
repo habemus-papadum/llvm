@@ -371,8 +371,8 @@ static bool terminalHasColors(int fd) {
     return true;
 #endif
 
-  // Otherwise, be conservative.
-  return false;
+  // Otherwise, DON'T be conservative in 2017.
+  return true;
 }
 
 bool Process::FileDescriptorHasColors(int fd) {
